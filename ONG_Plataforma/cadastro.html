@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horta Educacional - Cadastro</title>
+
+  <!-- CSS Modular -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="header">
+    <img src="images/logo.jpg" alt="Logo do projeto" class="logo">
+    <nav class="menu">
+      <a href="index.html">Início</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="cadastro.html">Cadastro</a>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <section>
+      <h1>Cadastro de Participantes</h1>
+      <p>Preencha o formulário abaixo para participar de nossos projetos.</p>
+
+      <form id="formCadastro">
+        <input type="text" id="nome" placeholder="Nome completo" required>
+        <input type="email" id="email" placeholder="E-mail" required>
+        <input type="text" id="telefone" placeholder="Telefone">
+        <textarea id="mensagem" placeholder="Fale um pouco sobre você..."></textarea>
+        <button type="submit">Cadastrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Projeto Horta Educacional</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/validation.js"></script>
+  <script src="js/storage.js"></script>
+</body>
+</html>

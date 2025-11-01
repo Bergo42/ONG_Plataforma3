@@ -1,0 +1,19 @@
+/* Cores */
+:root {
+  --color-primary: #4CAF50;
+  --color-primary-dark: #388E3C;
+  --color-light: #F9F9F9;
+  --color-dark: #333333;
+  --color-accent: #FFC107;
+
+  /* Tipografia */
+  --font-base: 'Arial', sans-serif;
+  --font-size-base: 16px;
+
+  /* Espaçamento e Bordas */
+  --spacing: 1rem;
+  --radius: 8px;
+
+  /* Sombra */
+  --shadow: 0 2px 6px rgba(0,0,0,0.15);
+}

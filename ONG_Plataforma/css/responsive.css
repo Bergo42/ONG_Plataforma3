@@ -1,0 +1,19 @@
+/* Responsividade básica */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu a {
+    margin: 10px 0 0 0;
+  }
+
+  .projetos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .conteudo {
+    padding: 10px;
+  }
+}

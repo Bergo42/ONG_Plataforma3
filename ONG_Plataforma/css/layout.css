@@ -1,0 +1,33 @@
+/* Layout global */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing);
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.header .logo {
+  width: 120px;
+}
+
+.menu a {
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.conteudo {
+  padding: var(--spacing);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer {
+  text-align: center;
+  padding: var(--spacing);
+  background-color: var(--color-dark);
+  color: white;
+  margin-top: 40px;
+}
